@@ -17,11 +17,30 @@ This is a sample of Web API with ASP.NET Core 1.0
 
 ``` http://localhost:47565/api/student ```
 
+```json
+  {
+    "firstName": "Barack",
+    "lastName": "Obama",
+    "gender": "Male",
+    "age": 55
+  },
+```
+
 ![postman_post](https://cloud.githubusercontent.com/assets/23435109/21072767/5becc588-beef-11e6-9b04-564cae10a3fe.PNG)
 
 ## Put A Student By ID
 
 ``` http://localhost:47565/api/student/5 ```
+
+```json
+  {
+    "studentId": 5,
+    "firstName": "Donald",
+    "lastName": "Trump",
+    "gender": "Male",
+    "age": 70
+  },
+```
 
 ![postman_put](https://cloud.githubusercontent.com/assets/23435109/21072771/6a1dc472-beef-11e6-9521-438914091fcf.PNG)
 
