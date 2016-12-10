@@ -2,3 +2,5 @@
 This is a sample of Web API with ASP.NET Core 1.0
 
 ## Get
+
+### GET
