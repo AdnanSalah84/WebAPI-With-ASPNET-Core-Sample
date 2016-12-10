@@ -1,6 +1,16 @@
 # WebAPI-With-ASPNET-Core-Sample
 This is a sample of Web API with ASP.NET Core 1.0
 
+## Getting started
+- Clone or Download this repository.
+- If you have Visual Studio 2015 then open ASPNet_WebAPI.sln in Visual Studio 2015.
+- Run `dotnet ef database update` in package manager console.
+- Press F5 to run the application or run the individual application on IIS Express in visual studio 2015. 
+- Download "Postman" App for free - https://www.getpostman.com/apps
+
+Postman is a REST Client for Testing Web API. Hope this will help you. 
+See the examples here:
+
 ## Get All Students
 
 ``` http://localhost:47565/api/student ```
